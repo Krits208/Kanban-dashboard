@@ -1,0 +1,36 @@
+.KanbanBoard {
+    display: flex;                  /* Use flexbox for layout */
+    justify-content: space-between; /* Space columns evenly */
+    padding: 20px;                 /* Padding around the board */
+    background-color: #f5f5f5;     /* Light background color */
+    border-radius: 8px;            /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.KanbanColumn {
+    flex: 1;                        /* Allow columns to grow equally */
+    margin: 0 10px;                /* Margin between columns */
+    background-color: #ffffff;      /* White background for columns */
+    border-radius: 4px;            /* Rounded corners for columns */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Light shadow for columns */
+    overflow: hidden;               /* Prevent overflow of content */
+}
+
+.KanbanColumn h2 {
+    text-align: center;             /* Center align column titles */
+    padding: 10px;                  /* Padding for the title */
+    background-color: #e1e1e1;      /* Light gray background for title */
+    border-bottom: 1px solid #ccc;  /* Divider between title and tickets */
+}
+
+.Ticket {
+    padding: 10px;                  /* Padding inside each ticket */
+    margin: 5px;                    /* Margin between tickets */
+    background-color: #e0f7fa;      /* Light blue background for tickets */
+    border-radius: 4px;             /* Rounded corners for tickets */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Shadow for tickets */
+}
+
+.Ticket:hover {
+    background-color: #b2ebf2;      /* Darker blue on hover */
+}

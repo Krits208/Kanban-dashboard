@@ -1,0 +1,23 @@
+.KanbanColumn {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh;
+}
+
+.KanbanColumn h2 {
+    color: #0074d9;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #0074d9;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.TicketList {
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}

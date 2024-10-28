@@ -1,0 +1,29 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.App-header {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #0074d9;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.KanbanBoard {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
+}

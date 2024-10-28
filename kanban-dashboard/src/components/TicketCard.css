@@ -1,0 +1,30 @@
+.TicketCard {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.TicketCard:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.TicketID {
+    font-size: 0.8rem;
+    color: #555;
+    text-align: right;
+}
+
+.TicketCard h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.TicketCard p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
