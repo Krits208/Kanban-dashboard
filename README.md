@@ -10,29 +10,7 @@
 ### `npm start`
 # cd Kanban-Dashboard
 
-# Runs the app in the development mode.\
+# Runs the app in the development mode.
 # Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# The page will reload when you make changes.\
-# Kanban-Dashboard/
-│
-├── public/                      # Public assets
-│
-├── src/
-│   ├── components/              # React components
-│   │   ├── KanbanBoard.js       # Main Kanban board component
-│   │   ├── KanbanColumn.js      # Column component for each status
-│   │   └── TicketCard.js        # Card component for each ticket
-│   │
-│   ├── redux/                   # Redux-related files
-│   │   ├── ticketActions.js     # Action creators for ticket transitions
-│   │   ├── ticketReducer.js     # Reducer for ticket state management
-│   │   └── store.js             # Redux store configuration
-│   │
-│   ├── tickets.json             # Sample data for initial tickets
-│   ├── App.js                   # Main app component
-│   ├── index.js                 # Entry point, includes Redux Provider
-│   └── styles/                  # CSS files for styling components
-│
-├── README.md                    # Project documentation
-└── package.json                 # Project dependencies and scripts
+# The page will reload when you make changes.
